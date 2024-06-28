@@ -6,13 +6,12 @@ GET https://cse341-project1-c956.onrender.com/users
 GET https://cse341-project1-c956.onrender.com/users/666e121c3da11a06c3ae1d01
 
 
-# Create contact.
-POST https://cse341-project1-c956.onrender.com/users HTTP/1.1
-content-type: application/json
+### create user
+POST http://localhost:3000/users HTTP/1.1 content-type: application/json
 
 {
-    "userName": "garett",
-    "email": "garett.loveless@gmail.com",
+    "userName": "gar",
+    "email": "garett.lovelessgmail.com",
     "name": "garett loveless",
     "ipaddress": "94.121.168.51"
 }
